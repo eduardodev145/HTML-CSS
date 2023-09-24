@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* em HTML e id   =  em CSS e #
+   em CSS e class =  em CSS e .*/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(175, 216, 216, 0.89);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight:800 ;
+    color:rgb(6, 122, 122) ;
+}
+
+h1#principal{
+    color: red;
+    text-align:center ;
+
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.basico{
+    color:rgb(19, 122, 6) ;
+    text-indent: 50px;
+
+}
+
+.intermediario{
+    color: rgb(110, 122, 6);
+    text-indent: 50px;
+}
+
+.avançado{
+    color: rgb(122, 6, 6);
+    text-indent: 50px;
+
+}
+
+.destaque{
+    background-color: rgba(146, 91, 137, 0.452);
+}

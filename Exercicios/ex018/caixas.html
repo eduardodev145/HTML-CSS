@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de caixas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{/*box level*/
+        background-color: gray;
+        height: 300px;
+        width: 300px;
+        
+        /*distancia do meu conteudo ate a margem*/
+       
+        border: 10px solid red;
+
+         
+        
+        padding: 10x 10px 40px 10px; /*distancia do meu conteudo ate a borda*/
+
+        outline: 5px dashed blue;
+
+        margin: 20px auto 40px auto; /* caso eu queria deixar alinhado porem ainda sim mecher em outros componente da margin eu posso dar auto na direita e esqueda*/
+
+        
+    }
+    
+    a{/*inline-level*/
+        /*display: block;posso alterar a caracteristica de lgo usando display deixando ele em block ou inline*/
+        background-color: gray;
+        color: rgb(7, 212, 248);
+        border-style: dashed;
+        border-width: 10px;
+        
+
+        
+    }
+
+    h2{
+        background-color: salmon;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        outline: 5px dashed gray;
+        margin:auto;
+        border-width: 5px;
+        border-style:dashed;
+        border-color: blue;
+        padding-top: 20px;
+        
+    }
+</style>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <P>o paragrafo tambem e uma caixa box-level, porem o link e um exemplo de <a href="#">caixa inline-level</a></P>
+    <h2>Meu exemplo</h2>
+    
+</body>
+</html>

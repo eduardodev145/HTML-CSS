@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste com pseudo classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: green;
+        }
+
+         a{
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            background-color: blue;
+            width: 200px;
+            font-weight: bold;
+        }
+
+        a.especial:hover{
+            color: white;
+            background-color: black;
+            
+        }
+        
+        a.duro:hover{
+            color: black;
+            background-color: white;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>testando pseoudo classes</h1>
+    <p>visite minha <a href="teste02.html" target="_self" rel="next" class="duro">segunda pagina</a></p>
+    <div>
+        conteudo surpresa
+        <p>SURPESA... <br><img src="imgem/voltar.png" alt="voltar"></p>
+    </div>
+    <p>va para minha <a href="teste03.html" target="_self" rel="next" class="especial">terceira pagina</a></p>
+    
+
+    
+</body>
+</html>

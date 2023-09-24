@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+@font-face {
+    font-family: pokemon;
+    src: url('fonts/Pokemon\ Hollow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #552c136e;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+    
+}
+
+h1{
+    font-family: pokemon, 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    font-family: 'Croissant One', cursive;;
+}
+/* tipos de format()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-att (Apple Advanced Typography)
+- svg
+
+esses tipo são como os exemplos dos videos e audios. 
+sempre vai ser bom colocar alguns a mais porquer existem
+navegadores que não reconhecem alguns tipos de fontes
+porem a grande maioria aceita o tipo (otf) e o tipo (ttf)*/

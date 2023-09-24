@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: darksalmon;
+    font-family: Arial, Helvetica, sans-serif; 
+    size: 8px;
+}
+
+h1{ background-color: black;
+    color: white;
+
+}
+
+p{
+    color: rgb(95, 4, 4);
+}
+

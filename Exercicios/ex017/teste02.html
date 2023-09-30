@@ -6,7 +6,13 @@
     <title>teste com pseudo classe</title>
 </head>
 <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
     body{
+        height: 100vh;
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -24,10 +30,32 @@
         a:hover{
             text-decoration: underline;
         }
+        section{
+            position: relative;
+            width: 600px;
+            height: 600px;
+            border: 3px solid black;
+            margin: auto;
+        }
+        p.alinhado{
+            position: absolute;
+            border: 3px solid rgb(236, 11, 11);
+            width: 200px;
+            height: 200px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            
+        }
 </style>
 <body>
     <h1>Deu certo</h1>
     <p>volte para  <a href="teste.html" rel="prev">primeira pagina</a></p>
+
+    <section>
+        <p class="alinhado"></p>
+    </section>
     
     
 </body>

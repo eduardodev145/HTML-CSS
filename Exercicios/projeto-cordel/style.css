@@ -37,18 +37,18 @@ a{
 
 main > p {
     padding-top: 30px;
-    height: 600px;
-    width: 600px;
-    font-size: 3em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
 }
 
 section > p{
     background-color: black;
     color: white;
-    height: 600px;
-    width: 600px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     
     font-size: 3.5vw;
     

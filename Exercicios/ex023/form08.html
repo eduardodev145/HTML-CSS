@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplos de select e textarea</h1>
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="iest">Estados:</label>
+            <select name="estado" id="iest" required>
+                <option value="">--Escolha--</option>
+                <optgroup label="Região sudeste">
+                    <option value="Sp">São paulo</option>
+                    <option value="Mg">Minas gerais</option>
+                    <option value="Rj">Rio de janeiro</option>
+                </optgroup>
+
+               
+                <optgroup label="Reginão nordeste">
+                    <option value="To">Tocantins</option>
+                    <option value="Mt">Mato grosso</option>
+                    <option value="Nt">Natal</option>
+                </optgroup>
+                
+            </select>
+        </p>
+
+        <p>
+            <label for="ifrof">Profissão:</label>
+            <input type="text" name="prof" id="ifrof" list="listaprof" required>
+            <datalist id="listaprof">
+                <option value="ADM">Administrado</option>
+                <option value="COZI">Cozinheiro</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="FREE">Free lancer</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="mensagem" id="imsg" cols="30" rows="10" required></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

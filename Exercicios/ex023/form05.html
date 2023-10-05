@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check box</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="ifsex">Feminino</label>
+            <input type="radio" name="sexo" id="ifsex"><br>
+
+            <label for="imsex">Masculino</label>
+            <input type="radio" name="sexo" id="imsex" checked>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <label for="ifut">Futebol</label>
+            <input type="checkbox" name="fut" id="ifut"> <br>
+
+            <label for="ibas">Basquete</label>
+            <input type="checkbox" name="bas" id="ibas"> <br>
+
+            <label for="inat">Natação</label>
+            <input type="checkbox" name="nat" id="inat"> <br>
+
+            <label for="iten">Tenis</label>
+            <input type="checkbox" name="ten" id="iten"> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

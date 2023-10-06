@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*estilos de impressora*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+menu{
+    display: none;
+}
+
+header h1{
+    text-align: center;
+}
+
+article{
+    width: 100%;
+}
+
+article::after{
+    content: 'site impresso dia 06/10/2023';
+}

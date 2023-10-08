@@ -54,7 +54,7 @@ menu > ul > li > a{
 }
 
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: rgb(187, 184, 184);
     transition: 0.5s;
 }
 
